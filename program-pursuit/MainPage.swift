@@ -69,6 +69,7 @@ struct MainPage: View {
                         }
                     }
                     }
+                
                 }
             }
         }
