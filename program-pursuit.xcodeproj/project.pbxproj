@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BD57FEB92A7B300300E4C124 /* ScienceAmbassador.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD57FEB82A7B300300E4C124 /* ScienceAmbassador.swift */; };
+		BD650E0B2A7B0DA300F7C9C5 /* Internships.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD650E0A2A7B0DA300F7C9C5 /* Internships.swift */; };
+		BD650E0D2A7B1E5100F7C9C5 /* Programs.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD650E0C2A7B1E5100F7C9C5 /* Programs.swift */; };
+		BDD213DC2A7ADDB4000B2427 /* Scholarship.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD213DB2A7ADDB4000B2427 /* Scholarship.swift */; };
+		BDD217C12A7B00EB0010DBD8 /* MainPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD217C02A7B00EB0010DBD8 /* MainPage.swift */; };
 		ECD7B8852A7ADAB600568841 /* program_pursuitApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD7B8842A7ADAB600568841 /* program_pursuitApp.swift */; };
 		ECD7B8872A7ADAB600568841 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD7B8862A7ADAB600568841 /* ContentView.swift */; };
 		ECD7B8892A7ADAB700568841 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECD7B8882A7ADAB700568841 /* Assets.xcassets */; };
@@ -16,6 +21,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BD57FEB82A7B300300E4C124 /* ScienceAmbassador.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScienceAmbassador.swift; sourceTree = "<group>"; };
+		BD650E0A2A7B0DA300F7C9C5 /* Internships.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Internships.swift; sourceTree = "<group>"; };
+		BD650E0C2A7B1E5100F7C9C5 /* Programs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Programs.swift; sourceTree = "<group>"; };
+		BDD213DB2A7ADDB4000B2427 /* Scholarship.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scholarship.swift; sourceTree = "<group>"; };
+		BDD217C02A7B00EB0010DBD8 /* MainPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPage.swift; sourceTree = "<group>"; };
 		ECD7B8812A7ADAB600568841 /* program-pursuit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "program-pursuit.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECD7B8842A7ADAB600568841 /* program_pursuitApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = program_pursuitApp.swift; sourceTree = "<group>"; };
 		ECD7B8862A7ADAB600568841 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -57,6 +67,11 @@
 			children = (
 				ECD7B8842A7ADAB600568841 /* program_pursuitApp.swift */,
 				ECD7B8862A7ADAB600568841 /* ContentView.swift */,
+				BDD217C02A7B00EB0010DBD8 /* MainPage.swift */,
+				BDD213DB2A7ADDB4000B2427 /* Scholarship.swift */,
+				BD57FEB82A7B300300E4C124 /* ScienceAmbassador.swift */,
+				BD650E0A2A7B0DA300F7C9C5 /* Internships.swift */,
+				BD650E0C2A7B1E5100F7C9C5 /* Programs.swift */,
 				ECD7B8882A7ADAB700568841 /* Assets.xcassets */,
 				ECD7B88D2A7ADAB700568841 /* Persistence.swift */,
 				ECD7B88F2A7ADAB700568841 /* program_pursuit.xcdatamodeld */,
@@ -144,9 +159,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				ECD7B88E2A7ADAB700568841 /* Persistence.swift in Sources */,
+				BDD213DC2A7ADDB4000B2427 /* Scholarship.swift in Sources */,
 				ECD7B8872A7ADAB600568841 /* ContentView.swift in Sources */,
 				ECD7B8852A7ADAB600568841 /* program_pursuitApp.swift in Sources */,
+				BD650E0D2A7B1E5100F7C9C5 /* Programs.swift in Sources */,
+				BD57FEB92A7B300300E4C124 /* ScienceAmbassador.swift in Sources */,
 				ECD7B8912A7ADAB700568841 /* program_pursuit.xcdatamodeld in Sources */,
+				BD650E0B2A7B0DA300F7C9C5 /* Internships.swift in Sources */,
+				BDD217C12A7B00EB0010DBD8 /* MainPage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
