@@ -13,7 +13,7 @@ struct program_pursuitApp: App {
 
     var body: some Scene {
         WindowGroup {
-            MainPage()
+            logIn()
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }

@@ -68,6 +68,19 @@ struct MainPage: View {
                                 .foregroundColor(Color.black)
                         }
                     }
+                    ZStack {
+                        Image("darkGreen")
+                            .resizable(resizingMode: .stretch)
+                            .frame(width: 300.0, height: 60.0)
+                            .cornerRadius(/*@START_MENU_TOKEN@*/20.0/*@END_MENU_TOKEN@*/)
+                        
+                        NavigationLink(destination: motivation()) {
+                            Text("Motivation")
+                                .font(.title2)
+                                .fontWeight(.semibold)
+                                .foregroundColor(Color.black)
+                        }
+                    }
                     }
                 
                 }
